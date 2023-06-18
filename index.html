@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abrar Ahmed Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d4fc895bf1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#skill-achivements">Skills</a></li>
+                    <li><a href="#my-work">My Work</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class ="header-text">
+                <p>Machine Learing Designer</p>
+                <h1>Hi, I am <samp>Abrar Ahmed  </samp><br> form India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="About-col1">
+                    <img src="images/my-user.png" alt="profile pic ">
+                </div>
+                <div class="About-col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis atque quibusdam voluptates in cumque dolor? Pariatur, debitis id nemo alias veniam obcaecati soluta quisquam illum architecto voluptatibus veritatis nihil! Repellat.</p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Experience</div>
+                        
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>ML Experience</span><br>Machine Learing</li>
+                            <li><span>ML Experience</span><br>Machine Learing</li>
+                            <li><span>ML Experience</span><br>Machine Learing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>ML Education</span><br>Machine Learing</li>
+                            <li><span>ML Education</span><br>Machine Learing</li>
+                            <li><span>ML Education</span><br>Machine Learing</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+<div id="skill-achivements">
+    <div class="container">
+        <h1 class="subtitle">Skills</h1>
+        <div class="skill-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Machine Learing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit fugiat molestias ipsam sapiente rem ipsum deserunt aperiam, exercitationem nisi soluta velit debitis dolorem repudiandae expedita magnam nihil vel consequuntur veritatis.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-file-code"></i>
+                <h2>Forent End</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit fugiat molestias ipsam sapiente rem ipsum deserunt aperiam, exercitationem nisi soluta velit debitis dolorem repudiandae expedita magnam nihil vel consequuntur veritatis.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-comment"></i>
+                <h2>AI</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit fugiat molestias ipsam sapiente rem ipsum deserunt aperiam, exercitationem nisi soluta velit debitis dolorem repudiandae expedita magnam nihil vel consequuntur veritatis.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="my-work">
+    <div class="container">
+        <h1 class="subtitle" style="padding-bottom: 40px;">My Work</h1>
+        <div class="project-box">
+              <img src="images/2.png" alt="Project 1 Image">
+              <div class="project-details">
+                <h2>Crowd Counting using YOLOv5</h2>
+                <ul>
+                    <li>We developed a crowd monitoring and management system using ESP32CAM and YOLOv5.<br>
+                    </li>
+                    <li>The system aims to count and prevent overcrowding to avoid stampedes.<br>
+                    </li>
+                    <li>For the initial phase, we used a scaled-down version where ball bearings represented people, training a custom YOLO model on a ball bearing dataset.<br>
+                    </li>
+                    <li>The setup includes an Arduino, a servo, and ESP32CAM. The camera scans the area continuously.<br>
+                    </li>
+                    <li>If the number of ball bearings exceeds a predefined threshold, indicating overcrowding, the Arduino triggers the servo to stop the gates.<br>
+                    </li>
+                    <li>Our project achieved remarkable success and secured the first position in a hackathon that involved more than 50 competing teams.<br>
+                    </li>
+                  </ul>
+              </div>
+            </a>
+          </div>
+          
+          <div class="project-box">
+            <a href="https://notefusion.streamlit.app/" target="_blank">
+              <img src="images/1.png" alt="Project 2 Image">
+              <div class="project-details">
+                <h2>AI Note Summarizer</h2>
+                <ul>
+                    <li>NoteFusion is an innovative web-based platform that revolutionizes the way students organize and comprehend their notes.<br>
+                    </li>
+                    <li>With NoteFusion, students can streamline their note-taking process, receive concise summaries of their notes, and enhance their understanding of the content.<br>
+                    </li>
+                    <li>The platform offers a seamless user experience, allowing students to upload their notes and leverage the power of AI for automated summarization.<br>
+                    </li>
+                    <li>Additionally, users can ask custom questions to the AI, receiving personalized answers that further support their comprehension.<br>
+                    </li>
+                    <li>NoteFusion also features an OCR (Optical Character Recognition) capability, enabling users to upload images of handwritten or typed notes for recognition and integration into the platform.<br>
+                    </li>
+                  </ul>
+                <a href="https://notefusion.streamlit.app/" style="background-color: #ff004f;">View Project</a>
+              </div>
+            </a>
+          </div>
+          
+    </div>
+</div>
+<div id="contact-me">
+    <div class="container">
+        <h1 class="subtitle" style="margin-bottom: 40px;">Contact Me</h1>
+        <div class="contact-box">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div class="contact-info">
+                    <h2>Email</h2>
+                    <p >abrarahmedb4u@gmail.com</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="contact-box">
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <div class="contact-info">
+                    <h2>Phone</h2>
+                    <p>+91 9014149362</p>
+                </div>
+            </div>
+        </div>
+        <div class="social-media">
+            <h2>Connect with Me</h2>
+            <ul>
+                <li><a href="https://twitter.com/abrarahmedb4u" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/abrar-ahmed-18b97517a/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/abrarahmedb4u" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com/abrarahmed_b4u/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
